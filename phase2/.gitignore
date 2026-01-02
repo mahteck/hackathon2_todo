@@ -1,0 +1,42 @@
+# Next.js / React
+.next/
+.vercel/
+out/
+.yarn/
+.pnp.*
+
+# Lock files
+yarn.lock
+pnpm-lock.yaml
+
+# Docker
+docker-data/
+docker-volume/
+docker-compose.override.yml
+
+# VSCode (keep only recommended files)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Test and coverage
+coverage/
+.coverage
+.coverage.*
+.cache/
+jest/
+jest-test-results.json
+
+# OS conflict files
+*.orig
+*.rej
+
+# Package managers
+Pipfile
+Pipfile.lock
+poetry.lock
+
+.venv/
+venv/
+ENV/
+env/
